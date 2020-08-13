@@ -1,0 +1,49 @@
+* {
+    font-family: 'Merriweather', serif;
+    line-height: 1.5rem;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #434547;
+}
+
+header, main {
+    width: 100vw;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(244, 245, 247);
+}
+
+#search_input {
+    margin: 40px 0 20px 0;
+    max-width: 500px;
+    width: 50vw;
+    padding: 10px 15px;
+    background-size: 20px;
+    background-image: url('https://img.icons8.com/android/24/000000/search.png');
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    background-position: 99% 50%;
+    border: 1px solid #d7dde2;
+    border-radius: 10px;
+    
+}
+
+
+
+.gallery {
+    width: 85vw;
+    max-width: 900px;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.gallery img {
+    padding: 7px 7px;
+    max-width: 214px;
+    min-width: 0;
+    flex: 1 1 100px;
+}
