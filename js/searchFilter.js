@@ -1,6 +1,4 @@
 // Declare variables
-console.log("app.js is triggered seccessfully!");
-
 const input = document.getElementById('search_input');
 const gallery = document.getElementsByClassName("gallery")[0];
 const photos = gallery.getElementsByTagName("a");
